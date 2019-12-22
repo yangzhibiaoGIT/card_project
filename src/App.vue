@@ -1,0 +1,28 @@
+<template>
+  <div id="app">
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app',
+  components: {
+  }
+}
+</script>
+
+<style>
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt{
+  padding:0;margin:0;list-style:none;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height:100vh;
+}
+</style>
